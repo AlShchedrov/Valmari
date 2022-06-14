@@ -1,0 +1,77 @@
+.webinar {
+    background-color: #ECFFEB;
+    position: relative;
+    padding: 71px 0 138px;
+}
+.webinar__block {
+    img {
+        position: absolute;
+        top: 92px;
+        right: 10px;
+    }
+}
+.text__block {
+    
+    h3 {
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26px;
+        color: #424242;
+        padding-top: 71px;
+    }
+    h1 {
+        font-family: Montserrat;
+        font-size: 65px;
+        font-weight: 700;
+        line-height: 65px;
+        color: #55A630;
+        width: 500px;
+    }
+
+    p {
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 23px;
+        color: #424242;
+        margin: 20px 0 57px;
+        width: 419px;
+    }
+}
+.buttons {
+    display: flex;
+}
+.webinar__btn-green {
+    border: 1px solid #55A630;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #55A630;
+    width: 285px;
+    height: 66px;
+    margin-right: 20px;
+
+}
+.webinar__btn {
+    border: 1px solid #55A630;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    color: #55A630;
+    width: 285px;
+    height: 66px;
+    background-color: transparent;
+    z-index: 99;
+
+    &:hover {
+        background-color: #ECFFEB;
+        opacity: 0.8;
+        transition: all 0.6s ease;
+}
+}

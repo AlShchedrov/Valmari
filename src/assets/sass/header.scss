@@ -1,0 +1,76 @@
+.burger {
+    display: none;
+}
+.top__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__about {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+
+    img {
+        width: 61px;
+        height: 63px;
+    }
+    span {
+        margin-left: 11px;
+        color: #1C1E23;
+        font-family: Montserrat;
+
+    }
+}
+.header__contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {        
+        margin-left: 20px;
+    }
+    img {
+        width: 28px;
+        height: 28px;
+    }
+}
+.social {
+    display: flex;
+    align-items: center;
+}
+.lang {
+    display: flex;
+    align-items: center;
+    margin-left: 65px;
+
+    img:last-child {
+        margin-left: 14px;
+        width: 11px;
+        height: 6px;
+    }
+}
+.social {
+    margin-left: 58px;    
+}
+.menu__line {
+    width: 100%;
+    height: 1px;
+    background-color: #55A63080;
+}
+.bottom__menu {
+    ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 22px 0;
+    
+    a {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        color: #424242;
+    }
+    }
+}
