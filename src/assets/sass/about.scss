@@ -1,0 +1,59 @@
+.about__us {
+    display: flex;
+    padding-bottom: 175px;
+
+    img{
+        width: 590px;
+        height: 666px;
+    }
+}
+.about__description {
+    margin-left: 120px;
+    h3 {
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 28px;
+        color: #858585;
+        padding-bottom: 30px;
+    }
+    h2 {
+        font-family: Montserrat;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 37px;
+        letter-spacing: -0.4000000059604645px;
+        margin-bottom: 75px;
+
+        span {
+            color: #55A630;
+        }
+    }
+    p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 29px;
+        padding-bottom: 10px;
+    }
+}
+
+.about__detail {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 60px;
+    span{
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 28px;
+        color: #55A630;
+    }
+    img{
+        width: 58px;
+        height: 10px;
+        margin-left: 48px;
+    }
+}
