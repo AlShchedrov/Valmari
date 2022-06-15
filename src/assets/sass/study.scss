@@ -1,0 +1,123 @@
+
+.study__h2 {
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    color: #424242;
+    margin-bottom: 76px;
+}
+.study__card1 {
+    background-image: url(/src/assets/images/study/bg1.png);
+    background-repeat: no-repeat;
+    width: 570px;
+    height: 260px;
+    position: relative;
+    .back__hand {
+        position: absolute;
+        bottom: 0;
+        right: 155px;
+        width: 65px;
+        height: 65px;
+    }
+    p {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21px;
+        color: #FFFFFF;
+        padding-left: 23px;
+    }
+}
+.study__card1_top {
+    display: flex;
+    margin: 0 0 60px 28px;
+    align-items: flex-end;
+    padding-top: 35px;
+    img {
+        width: 84px;
+        margin-left: 60px;
+        align-self: flex-end;
+    }
+    h2 {
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 38px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        
+    }
+}
+/*-----card--2-------*/
+.study__card2 {
+    background-image: url(/src/assets/images/study/bg2.png);
+    background-repeat: no-repeat;
+    width: 570px;
+    height: 260px;
+    h2 {        
+        padding: 193px 0 30px 25px;
+    }
+}
+.study__cards {
+    display: grid;
+    row-gap: 55px;
+    column-gap: 54px;
+    
+    .study__card1 {
+        grid-row: 1 / 2;
+        grid-column: 1 / 4;
+    }
+    .study__card2 {
+        grid-row: 1 / 2;
+        grid-column: 4 / 7;
+    }
+    .study__card3 {
+        grid-row:  2 / 3;
+        grid-column: 1 / 3;
+    }
+    .study__card4 {
+        grid-row:  2 / 3;
+        grid-column: 3 / 5;
+    }
+    .study__card5 {
+        grid-row:  2 / 3;
+        grid-column: 5 / 7;
+    }
+    h2 {
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 38px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+    }
+}
+.study__card3{
+    background-image: url(/src/assets/images/study/bg3.png);
+    background-repeat: no-repeat;
+    width: 364px;
+    height: 260px;
+    h2 {
+    padding: 197px 0 0 28px;
+    }
+}
+.study__card4{
+    background-image: url(/src/assets/images/study/bg4.png);
+    background-repeat: no-repeat;
+    width: 364px;
+    height: 260px;
+    h2 {
+    padding: 22px 0 0 28px;
+    }
+}
+.study__card5{
+    background-image: url(/src/assets/images/study/bg5.png);
+    background-repeat: no-repeat;
+    width: 364px;
+    height: 260px;
+    h2 {
+    padding: 201px 0 0 28px;
+    }
+}
