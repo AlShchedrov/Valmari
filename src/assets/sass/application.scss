@@ -1,0 +1,53 @@
+.application__block {
+    box-shadow: 0px 2px 20px rgba(66, 66, 66, 0.15);
+}
+.application__title {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #55A630;
+    padding: 75px 0 20px;
+    text-align: center;
+}
+.application__subtitle {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #424242;
+    padding-bottom: 60px;
+}
+.application__block {
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 20px rgba(66, 66, 66, 0.15);
+    padding: 60px 0 74px;
+    .application__form {        
+        width: 427px;
+        margin: 0 auto;
+        button {
+            margin-top: 30px;
+            background-color: #55A630;
+            width: 100%;
+            height: 71px;
+            font-family: Montserrat;
+            font-size: 23px;
+            font-weight: 600;
+            color: #FFFFFF;
+            border: none;
+        }
+    }
+    .form__input {
+        margin-bottom: 15px;
+        input {
+            height: 60px;
+            width: 100%;
+            border: 1px solid #55A630;
+            padding: 0 34px;
+            font-size: 14px;
+            line-height: 60px;
+            color: #9C9C9C;
+        }        
+    }
+}
