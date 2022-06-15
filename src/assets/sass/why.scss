@@ -1,0 +1,54 @@
+.why__title {
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    color: #424242;
+    padding-bottom: 75px;
+}
+.why__cards {
+    display: flex;
+    justify-content: space-between;
+}
+.why__card_title {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    padding: 40px 0 30px 30px;
+    color: #424242;
+}
+.why__description {
+    background-image: url(/src/assets/images/why/01.png);
+    background-position: bottom 22px right 26px;
+    background-repeat: no-repeat;
+    width: 380px;    
+    box-shadow: 0px 2px 20px rgba(66, 66, 66, 0.15);
+}
+.why__description3 {
+    background-image: url(/src/assets/images/why/03.png);
+    background-position: bottom 22px right 26px;
+    background-repeat: no-repeat;
+    width: 380px;    
+    box-shadow: 0px 2px 20px rgba(66, 66, 66, 0.15);
+}
+.why__card_text {
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 23px;
+        color: #1C1E23;
+        padding: 0 20px 0 30px;
+}
+.why__description_active {
+    background-color: #B7ECB1;
+    background-image: url(/src/assets/images/why/02.png);
+    background-position: top 22px right 26px;
+    background-repeat: no-repeat;
+    margin: 0 30px;
+    width: 380px;
+    height: 315px;
+    box-shadow: 0px 2px 20px rgba(66, 66, 66, 0.15);
+}
