@@ -10,10 +10,7 @@
 .offer__cards {
     position: relative;
     display: flex;
-    justify-content: space-between;
-    &:not(:last-child) {
-        margin-right: 30px;
-    }    
+    justify-content: space-between;    
 }
 .offer__left_arrow {
     position: absolute;
