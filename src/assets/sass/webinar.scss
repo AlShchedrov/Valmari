@@ -1,13 +1,28 @@
 .webinar {
     background-color: #ECFFEB;
     position: relative;
-    padding: 71px 0 138px;
+    padding: 71px 0 138px;     
+    @media (max-width: 768px) {
+        padding: 38px 0 30px;
+    }
 }
 .webinar__block {
     img {
         position: absolute;
         top: 92px;
         right: 10px;
+        @media (max-width: 1024px) {
+            width: 527px;
+            height: 430px;
+            top: 110px;
+            right: 0;
+        }
+        @media (max-width: 768px) {
+            width: 354px;
+            height: 289px;
+            top: 90px;
+            right: 70px;
+        }
     }
 }
 .text__block {
@@ -19,6 +34,9 @@
         line-height: 26px;
         color: #424242;
         padding-top: 71px;
+        @media (max-width: 1024px) {
+            display: none;
+        }
     }
     h1 {
         font-family: Montserrat;
@@ -27,8 +45,12 @@
         line-height: 65px;
         color: #55A630;
         width: 500px;
+    
+    @media (max-width: 768px) {
+        font-size: 40px;
+        line-height: 40px;
     }
-
+    }
     p {
         font-family: Montserrat;
         font-size: 20px;
@@ -37,10 +59,18 @@
         color: #424242;
         margin: 20px 0 57px;
         width: 419px;
+        @media (max-width: 768px) {
+            font-size: 14px;
+            line-height: 15px;
+        }
     }
+    
 }
 .buttons {
     display: flex;
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
 }
 .webinar__btn-green {
     border: 1px solid #55A630;
@@ -54,6 +84,17 @@
     width: 285px;
     height: 66px;
     margin-right: 20px;
+    @media (max-width: 1024px) {
+        width: 247px;
+        height: 55px;
+    }
+    @media (max-width: 768px) {
+        width: 220px;
+        height: 46px;
+        font-size: 15px;
+        line-height: 12px;
+        margin-bottom: 18px;
+    }
 
 }
 .webinar__btn {
@@ -73,5 +114,15 @@
         background-color: #ECFFEB;
         opacity: 0.8;
         transition: all 0.6s ease;
-}
+    }
+    @media (max-width: 1024px) {
+        width: 247px;
+        height: 55px;
+    }
+    @media (max-width: 768px) {
+        width: 220px;
+        height: 46px;
+        font-size: 15px;
+        line-height: 12px;
+    }
 }

@@ -20,6 +20,13 @@ main {
     max-width: calc(1410px + 15px * 2);
     width: 100%;
     margin: 0 auto;
+
+    @media (max-width: 1024px) {
+        max-width: calc(1024px + 15px * 2);
+    }
+    @media (max-width: 768px) {
+        max-width: 768px;
+    }
 }
 ul, ol, li {
     list-style: none;
@@ -34,6 +41,12 @@ a {
     width: 100%;
     padding: 0 15px;
     margin: 0 auto; 
+    @media (max-width: 1024px) {
+        max-width: (958px);
+    }
+    @media (max-width: 768px) {
+        max-width: 642px;
+    }
 }
 .title {
     font-family: Montserrat;
