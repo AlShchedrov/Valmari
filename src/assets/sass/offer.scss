@@ -6,6 +6,12 @@
     text-align: center;
     color: #424242;
     padding: 166px 0 75px;
+    @media (max-width: 1024px) {
+        font-size: 30px;
+    }
+    @media (max-width: 768px) {
+        font-size: 25px;
+    }
 }
 .offer__cards {
     position: relative;
@@ -16,9 +22,31 @@
     position: absolute;
     top: 180px;
     left: -20px;
+    @media (max-width: 1024px) and (min-width: 769px) {
+        display: none;
+    }
+    @media (max-width: 768px) {
+        top: 100px;
+    }
 }
 .offer__right_arrow {
     position: absolute;
     top: 180px;
     right: -20px;
+    @media (max-width: 1024px) and (min-width: 769px) {
+        display: none;
+    }
+    @media (max-width: 768px) {
+        top: 100px;
+    }
+}
+.offer__img {
+    @media (max-width: 1024px) {
+        width: 303px;
+        height: 303px;
+    }
+    @media (max-width: 768px) {
+        width: 201px;
+        height: 201px;
+    }
 }
