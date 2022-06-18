@@ -1,14 +1,35 @@
 .about__us {
     display: flex;
+    justify-content: space-between;
     padding-bottom: 175px;
+    @media (max-width: 1024px) {
+        padding-bottom: 150px;
+    }
+    @media (max-width: 768px) {
+        padding-bottom: 104px;
+    }
 
     img{
         width: 590px;
         height: 666px;
+        @media (max-width: 1024px) {
+            width: 383px;
+            height: 583px;
+        }
+        @media (max-width: 768px) {
+            width: 276px;
+            height: 408px;
+        }
     }
 }
 .about__description {
     margin-left: 120px;
+    @media (max-width: 1024px) {
+        margin-left: 110px;
+    }
+    @media (max-width: 768px) {
+        margin-left: 54px;
+    }
     h3 {
         font-family: Montserrat;
         font-size: 25px;
@@ -16,6 +37,15 @@
         line-height: 28px;
         color: #858585;
         padding-bottom: 30px;
+        @media (max-width: 1024px) {
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+        @media (max-width: 768px) {
+            font-size: 15;
+            line-height: 12px;
+            padding-bottom: 20px;
+        }
     }
     h2 {
         font-family: Montserrat;
@@ -24,9 +54,27 @@
         line-height: 37px;
         letter-spacing: -0.4000000059604645px;
         margin-bottom: 75px;
+        @media (max-width: 1024px) {
+            margin-bottom: 40px;
+            font-size: 24px;
+            line-height: 25px;
+        }
+        @media (max-width: 768px) {
+            margin-bottom: 34px;
+            font-size: 25px;
+            line-height: 26px;
+        }
+
 
         span {
             color: #55A630;
+        }
+        @media (max-width: 1024px) {
+            font-size: 24px;
+            line-height: 26px;
+        }
+        @media (max-width: 768px) {
+            font-size: 25px;
         }
     }
     p {
@@ -36,7 +84,16 @@
         font-size: 25px;
         line-height: 29px;
         padding-bottom: 10px;
+        @media (max-width: 1024px) {        
+            font-size: 20px;
+            line-height: 25px;
+        }
+        @media (max-width: 768px) {
+            font-size: 15px;
+            line-height: 20px;
+        }
     }
+    
 }
 
 .about__detail {
@@ -44,16 +101,36 @@
     justify-content: end;
     align-items: center;
     margin-top: 60px;
+    @media (max-width: 1024px) {
+        margin-top: 102px;
+    }
+    @media (max-width: 768px) {
+        margin-top: 18px;
+    }
     span{
         font-family: Montserrat;
         font-size: 25px;
         font-weight: 500;
         line-height: 28px;
         color: #55A630;
+        @media (max-width: 1024px) {
+            font-size: 20px;
+        }
+        @media (max-width: 768px) {
+            font-size: 14px;
+        }
     }
     img{
         width: 58px;
         height: 10px;
         margin-left: 48px;
+        @media (max-width: 1024px) {
+            width: 43px;
+            margin-left: 42px;
+        }
+        @media (max-width: 768px) {
+            width: 35px;
+            margin-left: 14px;
+        }
     }
 }
