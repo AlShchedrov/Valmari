@@ -61,7 +61,8 @@
     line-height: 28px;
     text-align: center;
     color: #424242;
-    margin: 175px 0 77px;
+    padding-top: 175px;
+    margin-bottom: 77px;
     @media (max-width: 1024px) {
         font-size: 30px;
         line-height: 28px;
@@ -80,6 +81,8 @@
     position: relative;
 
     .trianle__left {
+        border: none;
+        background: none;
         position: absolute;
         top: 260px;
         left: -20px;
@@ -91,6 +94,8 @@
         }
     }
     .triangle__right {
+        border: none;
+        background: none;
         position: absolute;
         top: 260px;
         right: -20px;

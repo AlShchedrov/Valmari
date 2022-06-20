@@ -16,18 +16,7 @@
     box-sizing: border-box;
     
 }
-main {
-    max-width: calc(1410px + 15px * 2);
-    width: 100%;
-    margin: 0 auto;
 
-    @media (max-width: 1024px) {
-        max-width: calc(1024px + 15px * 2);
-    }
-    @media (max-width: 768px) {
-        max-width: 768px;
-    }
-}
 ul, ol, li {
     list-style: none;
 }
@@ -37,13 +26,14 @@ a {
     ;
 }
 .content {
-    max-width: 1200px;
+    max-width: calc(1170px + 15px * 2);
     width: 100%;
-    margin: 0 auto; 
+    padding: 0 15px;
+    margin: 0 auto;  
     @media (max-width: 1024px) {
-        max-width: (958px);
+        max-width: calc(942px + 8px * 2);
     }
     @media (max-width: 768px) {
-        max-width: 642px;
+        max-width: calc(626px + 8px * 2);
     }
 }
