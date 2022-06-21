@@ -20,6 +20,7 @@
     @media (max-width: 320px) {
         background-size: 231px 196px;
         padding: 12px 0 188px;
+        background-position: bottom center;
     }
 }
 .text__block {
@@ -139,6 +140,7 @@
     }
     @media (max-width: 320px) {
         font-size: 10px;
+        margin: 0 auto;
     }
 
 }
@@ -179,5 +181,6 @@
     }
     @media (max-width: 320px) {
         font-size: 10px;
+        margin: 8 auto 0;
     }
 }
