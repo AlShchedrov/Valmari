@@ -123,12 +123,11 @@
     justify-content: space-between;
     position: relative;
     @media (max-width: 480px) {
-        margin-left: -21%;
+        margin-left: -43%;
         overflow: hidden;
     }
     @media (max-width: 320px) {
-        margin-left: -60%;
-        overflow: hidden;
+        margin-left: -62%;
     }
 
     .trianle__left {
@@ -675,15 +674,12 @@
 .slider__courusel {
     display: flex;
     justify-content: center;
-    margin: 75px 0 175px;
-        @media (max-width: 1024px) {
-            margin: 75px 0 143px;
-        }
+    padding-top: 75px;        
         @media (max-width: 768px) {
-            margin: 65px 0 0;
+            padding-top: 65px;;
         }
         @media (max-width: 480px) {
-            margin: 39px 0 0;
+            padding-top: 39px;;
         }
 
     .slider__round_active{
