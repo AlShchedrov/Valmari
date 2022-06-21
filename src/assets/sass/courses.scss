@@ -61,19 +61,18 @@
     line-height: 28px;
     text-align: center;
     color: #424242;
-    padding-top: 175px;
-    margin-bottom: 77px;
+    padding: 175px 0 77px;
     @media (max-width: 1024px) {
         font-size: 30px;
         line-height: 28px;
-        margin: 140px 0 75px;
+        padding: 140px 0 75px;
     }
     @media (max-width: 768px) {
-        font-size: 20px;
-        line-height: 28px;
-        margin: 100px 0 25px;
+        font-size: 20px;        
+        padding: 100px 0 25px;
     }
 }
+
 /*-----cards------*/
 .card__slider {
     display: flex;
