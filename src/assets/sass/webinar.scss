@@ -1,41 +1,46 @@
 .webinar {
-    background-color: #ECFFEB;
-    position: relative;
-    padding: 71px 0 138px;     
+    background-color: #ECFFEB; 
+    background-image: url(/src/assets/images/webinar/woman.png);
+    background-repeat: no-repeat;
+    background-position: bottom right 90px;
+    padding: 71px 0 138px;
+    @media (max-width: 1024px) {
+        background-size: 527px 430px;
+        background-position: bottom right;
+        padding: 75px 0 97px;
+    }
     @media (max-width: 768px) {
+        background-size: 354px 289px;
         padding: 38px 0 30px;
     }
-}
-.webinar__block {
-    img {
-        position: absolute;
-        top: 92px;
-        right: 10px;
-        @media (max-width: 1024px) {
-            width: 527px;
-            height: 430px;
-            top: 110px;
-            right: 0;
-        }
-        @media (max-width: 768px) {
-            width: 354px;
-            height: 289px;
-            top: 90px;
-            right: 70px;
-        }
+    @media (max-width: 480px) {
+        background-size: 226px 192px;
+        padding: 20px 0 33px;
+    }
+    @media (max-width: 320px) {
+        background-size: 231px 196px;
+        padding: 12px 0 188px;
     }
 }
 .text__block {
-    
+    display: flex;    
+    flex-direction: column;
     h3 {
         font-family: Montserrat;
         font-size: 20px;
         font-weight: 600;
         line-height: 26px;
         color: #424242;
-        padding-top: 71px;
         @media (max-width: 1024px) {
             display: none;
+        }
+        @media (max-width: 480px) {
+            font-size: 8px;
+            display: block;
+        }
+        @media (max-width: 320px) {
+            font-size: 10px;
+            text-align: center;
         }
     }
     h1 {
@@ -44,12 +49,23 @@
         font-weight: 700;
         line-height: 65px;
         color: #55A630;
-        width: 500px;
+        max-width: 500px;
     
-    @media (max-width: 768px) {
-        font-size: 40px;
-        line-height: 40px;
-    }
+        @media (max-width: 768px) {
+            font-size: 40px;
+            line-height: 40px;
+            }
+        @media (max-width: 480px) {
+            font-size: 24px;
+            line-height: 25px;
+            max-width: 187px;
+        }
+        @media (max-width: 320px) {
+            font-size: 30px;
+            line-height: 28px;
+            text-align: center;
+            max-width: none;
+        }
     }
     p {
         font-family: Montserrat;
@@ -59,9 +75,28 @@
         color: #424242;
         margin: 20px 0 57px;
         width: 419px;
+        @media (max-width: 1024px) {
+            line-height: 22px;
+            margin: 24px 0 44px;
+            max-width: 431px;
+        }
         @media (max-width: 768px) {
             font-size: 14px;
             line-height: 15px;
+            margin: 4px 0 20px;
+            max-width: 293px;
+        }
+        @media (max-width: 480px) {
+            font-size: 8px;
+            line-height: 10px;
+            margin: 15px 0 13px;
+            max-width: 167px;
+        }
+        @media (max-width: 320px) {
+            font-size: 10px;
+            line-height: 12px;
+            margin: 12px auto;
+            max-width: 202px;
         }
     }
     
@@ -95,6 +130,16 @@
         line-height: 12px;
         margin-bottom: 18px;
     }
+    @media (max-width: 480px) {
+        width: 141px;
+        height: 30px;
+        font-size: 8px;
+        line-height: 26px;
+        margin-bottom: 8px;
+    }
+    @media (max-width: 320px) {
+        font-size: 10px;
+    }
 
 }
 .webinar__btn {
@@ -124,5 +169,15 @@
         height: 46px;
         font-size: 15px;
         line-height: 12px;
+    }
+    @media (max-width: 480px) {
+        width: 141px;
+        height: 30px;
+        font-size: 8px;
+        line-height: 26px;
+        margin-bottom: 8px;
+    }
+    @media (max-width: 320px) {
+        font-size: 10px;
     }
 }
