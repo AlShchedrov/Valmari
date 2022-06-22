@@ -128,10 +128,8 @@
         @media (max-width: 320px) {
             text-align: center;
         }
-    }
-    
+    }    
 }
-
 .about__detail {
     display: flex;
     justify-content: end;
@@ -143,9 +141,7 @@
     @media (max-width: 768px) {
         margin-top: 18px;
     }
-    @media (max-width: 480px) {
-        display: none;
-    }
+    
     span{
         font-family: Montserrat;
         font-size: 25px;
@@ -171,22 +167,5 @@
             width: 35px;
             margin-left: 14px;
         }
-    }
-}
-.about__detail_480 {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    margin-top: 18px;
-    span{
-        font-family: Montserrat;
-        font-size: 14px;
-        font-weight: 500;
-        line-height: 22px;
-        color: #55A630;
-    }
-    img {
-        width: 35px;
-        margin-left: 14px;
     }
 }
