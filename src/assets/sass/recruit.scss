@@ -33,7 +33,10 @@
         @media (max-width: 480px) {
             display: block;
             width: 360px;
-            height: 129px;
+        }
+        @media (max-width:320px) {
+            width: 286px;
+            height: 154px;
         }
     }
 }

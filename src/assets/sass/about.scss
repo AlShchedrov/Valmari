@@ -33,9 +33,11 @@
         @media (max-width: 480px) {
             display: block;
             margin: 0 auto;
+            width: 344px;
         }
         @media (max-width: 320px) {
-            width: 300px;
+            width: 286px;
+            height: 154px;
             margin: 0 auto;
         }
     }
