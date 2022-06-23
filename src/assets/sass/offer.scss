@@ -11,12 +11,28 @@
     }
     @media (max-width: 768px) {
         font-size: 25px;
+        padding: 100px 0 50px;
+    }
+    @media (max-width: 480px) {
+        font-size: 20px;
+        line-height: 13px;
+        padding: 80px 0 40px;
+    }
+    @media (max-width: 320px) {
+        line-height: 25px;        
     }
 }
 .offer__cards {
     position: relative;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;   
+    @media (max-width: 480px) {
+        overflow: hidden;
+        margin-left: -145px;
+    } 
+    @media (max-width: 320px) {
+        margin-left: -170px;
+    }
 }
 .offer__left_arrow {
     border: none;
@@ -29,6 +45,9 @@
     }
     @media (max-width: 768px) {
         top: 100px;
+    }
+    @media (max-width: 480px) {
+        display: none;
     }
 }
 .offer__right_arrow {
@@ -43,6 +62,9 @@
     @media (max-width: 768px) {
         top: 100px;
     }
+    @media (max-width:480px) {
+        display: none;
+    }
 }
 .offer__img {
     @media (max-width: 1024px) {
@@ -52,5 +74,14 @@
     @media (max-width: 768px) {
         width: 201px;
         height: 201px;
+    }
+    @media (max-width: 480px) {
+        width: 196px;
+        height: 196px;
+        margin-right: 25px;
+    }
+    @media (max-width: 320px) {
+        width: 194px;
+        height: 194px;
     }
 }
